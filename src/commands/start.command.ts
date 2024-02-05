@@ -21,7 +21,7 @@ export class Start extends Command {
             ctx.editMessageText('Ответ первой кнопки')
         })
 
-        this.bot.action('first_button', (ctx) => {
+        this.bot.action('second_button', (ctx) => {
             ctx.session.like = false
             ctx.editMessageText('Ответ второй кнопки')
         })
